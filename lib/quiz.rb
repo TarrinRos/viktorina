@@ -34,9 +34,21 @@ class Quiz
   end
 
   def start
-    unless thats_all?
+    until thats_all?
       ask_next_question
       puts @question
+      users_choice = STDIN.gets.to_i
+
+      if @question.is_correct?(users_choice - 1)
+        puts 'Вы угадали'
+        @correct_answers_count += 1
+      else
+        puts 'Вы не угадали'
+        puts 'Правильный ответ'
+      end
     end
+    puts '============================================'
+    puts 'Викторина oкончена.'
+    puts "Вы ответили правильно на #{@correct_answers_count} вопросов."
   end
 end

@@ -24,7 +24,7 @@ class Question
     @answer_choices = answer_choices.map { |choice| choice[0] }
 
     # Gets index of correct choice from the answers choices
-    @correct_choice_index = answer_choices.index { |item| item.attributes["right"] }
+    @correct_choice_index = answer_choices.index { |item| item.attributes["correct"] }
   end
 
   def to_s
