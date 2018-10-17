@@ -13,7 +13,7 @@
   <question seconds="25">
     <text>А И Б сидели на трубе, А упало, Б пропало. Что осталось на трубе?</text>
     <variants>
-      <variant>А</variant>
+      <variant>Насиженное место</variant>
       <variant correct="true">И</variant>
       <variant>Кошка</variant>
       <variant>Буквы сидели на трубе? Этого не может быть!</variant>

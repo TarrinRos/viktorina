@@ -1,5 +1,5 @@
 class Question
-  attr_reader :seconds
+  attr_reader :seconds, :correct_choice_index
 
   def self.xml_parse(question)
     # Gets question text
@@ -38,6 +38,10 @@ class Question
   end
 
   def is_correct?(users_choice)
-    users_choice = @correct_choice_index
+    users_choice == @correct_choice_index
+  end
+
+  def show_correct_answer
+    @answer_choices[@correct_choice_index]
   end
 end

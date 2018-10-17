@@ -36,6 +36,7 @@ class Quiz
   def start
     until thats_all?
       ask_next_question
+      puts ''
       puts @question
       users_choice = STDIN.gets.to_i
 
@@ -44,7 +45,7 @@ class Quiz
         @correct_answers_count += 1
       else
         puts 'Вы не угадали'
-        puts 'Правильный ответ'
+        puts "Правильный ответ: #{@question.show_correct_answer}"
       end
     end
     puts '============================================'
