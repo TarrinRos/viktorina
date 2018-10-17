@@ -5,8 +5,8 @@
     <variants>
       <variant>mc.cos(x)</variant>
       <variant>mcDonalds</variant>
-      <variant right="true">mc2</variant>
-      <variant>мцюх</variant>
+      <variant correct="true">mc2</variant>
+      <variant>мцтз</variant>
     </variants>
   </question>
 
@@ -14,7 +14,7 @@
     <text>А И Б сидели на трубе, А упало, Б пропало. Что осталось на трубе?</text>
     <variants>
       <variant>А</variant>
-      <variant right="true">И</variant>
+      <variant correct="true">И</variant>
       <variant>Кошка</variant>
       <variant>Буквы сидели на трубе? Этого не может быть!</variant>
     </variants>
@@ -23,7 +23,7 @@
   <question seconds="25">
     <text>Будда. Есть чо?</text>
     <variants>
-      <variant right="true">Нет, ничо</variant>
+      <variant correct="true">Нет, ничо</variant>
       <variant>Не курю</variant>
       <variant>Я с этого района</variant>
       <variant>Милиция!</variant>
@@ -34,7 +34,7 @@
     <text>Зачем?</text>
     <variants>
       <variant>Что зачем?</variant>
-      <variant right="true">Затем.</variant>
+      <variant correct="true">Затем.</variant>
       <variant>Потому что могу</variant>
       <variant>Ну и вопросы у вас.</variant>
     </variants>
@@ -45,7 +45,7 @@
     <variants>
       <variant>В вере</variant>
       <variant>В любви</variant>
-      <variant right="true">В жизни</variant>
+      <variant correct="true">В жизни</variant>
       <variant>Все тлен</variant>
     </variants>
   </question>
@@ -56,7 +56,7 @@
       <variant>Я не биолог</variant>
       <variant>180/15+26.27</variant>
       <variant>Все зависит от вида</variant>
-      <variant right="true">40</variant>
+      <variant correct="true">40</variant>
     </variants>
   </question>
 
@@ -65,7 +65,7 @@
     <variants>
       <variant>Нет</variant>
       <variant>Да</variant>
-      <variant right="true">Уже работаю</variant>
+      <variant correct="true">Уже работаю</variant>
       <variant>Зачем Вы интересуетесь?</variant>
     </variants>
   </question>

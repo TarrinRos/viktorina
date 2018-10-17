@@ -1,4 +1,5 @@
 require 'rexml/document'
+
 class Quiz
   attr_reader :questions
 
@@ -8,11 +9,34 @@ class Quiz
     file = File.new(file_path)
     doc = REXML::Document.new(file)
     file.close
+    # Array of the elements
     question_samples = doc.get_elements("questions/question")
-    questions = question_samples.map { |sample| Question.new(sample) }
+
+    # Array of the Question instances
+    questions = question_samples.map { |sample| Question.xml_parse(sample) }
     self.new(questions)
   end
+
   def initialize(questions)
     @questions = questions
+    @correct_answers_count = 0
+    @index = 0
+  end
+
+  # Method for stop the quiz
+  def thats_all?
+    @questions.size <= @index
+  end
+
+  def ask_next_question
+    @question = @questions[@index]
+    @index += 1
+  end
+
+  def start
+    unless thats_all?
+      ask_next_question
+      puts @question
+    end
   end
 end
