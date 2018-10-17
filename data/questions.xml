@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <questions>
-  <question secundes="25">
+  <question seconds="25">
     <text>E = ?</text>
     <variants>
       <variant>mc.cos(x)</variant>
@@ -9,7 +10,7 @@
     </variants>
   </question>
 
-  <question secundes="25">
+  <question seconds="25">
     <text>А И Б сидели на трубе, А упало, Б пропало. Что осталось на трубе?</text>
     <variants>
       <variant>А</variant>
@@ -19,7 +20,7 @@
     </variants>
   </question>
 
-  <question secundes="25">
+  <question seconds="25">
     <text>Будда. Есть чо?</text>
     <variants>
       <variant right="true">Нет, ничо</variant>
@@ -29,7 +30,7 @@
     </variants>
   </question>
 
-  <question secundes="25">
+  <question seconds="25">
     <text>Зачем?</text>
     <variants>
       <variant>Что зачем?</variant>
@@ -39,7 +40,7 @@
     </variants>
   </question>
 
-  <question secundes="25">
+  <question seconds="25">
     <text>В чем смысл жизни?</text>
     <variants>
       <variant>В вере</variant>
@@ -49,7 +50,7 @@
     </variants>
   </question>
 
-  <question secundes="25">
+  <question seconds="25">
     <text>Сколько ног у сороконожки?</text>
     <variants>
       <variant>Я не биолог</variant>
@@ -59,7 +60,7 @@
     </variants>
   </question>
 
-  <question secundes="25">
+  <question seconds="25">
     <text>Почему ты не работаешь? Ты - лентяй?</text>
     <variants>
       <variant>Нет</variant>
