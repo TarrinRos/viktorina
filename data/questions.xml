@@ -1,0 +1,81 @@
+<questions>
+  <question secundes="25">
+    <text>E = ?</text>
+    <variants>
+      <variant>mc.cos(x)</variant>
+      <variant>mcDonalds</variant>
+      <variant right="true">mc2</variant>
+      <variant>мцюх</variant>
+    </variants>
+  </question>
+
+  <question secundes="25">
+    <text>E = ?</text>
+    <variants>
+      <variant>mc.cos(x)</variant>
+      <variant>mcDonalds</variant>
+      <variant right="true">mc2</variant>
+      <variant>мцюх</variant>
+    </variants>
+  </question>
+
+  <question secundes="25">
+    <text>А И Б сидели на трубе, А упало, Б пропало. Что осталось на трубе?</text>
+    <variants>
+      <variant>mc.cos(x)</variant>
+      <variant>mcDonalds</variant>
+      <variant right="true">mc2</variant>
+      <variant>мцюх</variant>
+    </variants>
+  </question>
+
+  <question secundes="25">
+    <text>Есть чо?</text>
+    <variants>
+      <variant>mc.cos(x)</variant>
+      <variant>mcDonalds</variant>
+      <variant right="true">mc2</variant>
+      <variant>мцюх</variant>
+    </variants>
+  </question>
+
+  <question secundes="25">
+    <text>Зачем?</text>
+    <variants>
+      <variant>mc.cos(x)</variant>
+      <variant>mcDonalds</variant>
+      <variant right="true">mc2</variant>
+      <variant>мцюх</variant>
+    </variants>
+  </question>
+
+  <question secundes="25">
+    <text>В чем смысл жизни?</text>
+    <variants>
+      <variant>mc.cos(x)</variant>
+      <variant>mcDonalds</variant>
+      <variant right="true">mc2</variant>
+      <variant>мцюх</variant>
+    </variants>
+  </question>
+
+  <question secundes="25">
+    <text>Сколько ног у сороконожки?</text>
+    <variants>
+      <variant>mc.cos(x)</variant>
+      <variant>mcDonalds</variant>
+      <variant right="true">mc2</variant>
+      <variant>мцюх</variant>
+    </variants>
+  </question>
+
+  <question secundes="25">
+    <text>Почему ты не работаешь? Ты - лентяй?</text>
+    <variants>
+      <variant>mc.cos(x)</variant>
+      <variant>mcDonalds</variant>
+      <variant right="true">mc2</variant>
+      <variant>мцюх</variant>
+    </variants>
+  </question>
+</questions>
