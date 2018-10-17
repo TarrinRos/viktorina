@@ -10,72 +10,62 @@
   </question>
 
   <question secundes="25">
-    <text>E = ?</text>
-    <variants>
-      <variant>mc.cos(x)</variant>
-      <variant>mcDonalds</variant>
-      <variant right="true">mc2</variant>
-      <variant>мцюх</variant>
-    </variants>
-  </question>
-
-  <question secundes="25">
     <text>А И Б сидели на трубе, А упало, Б пропало. Что осталось на трубе?</text>
     <variants>
-      <variant>mc.cos(x)</variant>
-      <variant>mcDonalds</variant>
-      <variant right="true">mc2</variant>
-      <variant>мцюх</variant>
+      <variant>А</variant>
+      <variant right="true">И</variant>
+      <variant>Кошка</variant>
+      <variant>Буквы сидели на трубе? Этого не может быть!</variant>
     </variants>
   </question>
 
   <question secundes="25">
-    <text>Есть чо?</text>
+    <text>Будда. Есть чо?</text>
     <variants>
-      <variant>mc.cos(x)</variant>
-      <variant>mcDonalds</variant>
-      <variant right="true">mc2</variant>
-      <variant>мцюх</variant>
+      <variant right="true">Нет, ничо</variant>
+      <variant>Не курю</variant>
+      <variant>Я с этого района</variant>
+      <variant>Милиция!</variant>
     </variants>
   </question>
 
   <question secundes="25">
     <text>Зачем?</text>
     <variants>
-      <variant>mc.cos(x)</variant>
-      <variant>mcDonalds</variant>
-      <variant right="true">mc2</variant>
-      <variant>мцюх</variant>
+      <variant>Что зачем?</variant>
+      <variant right="true">Затем.</variant>
+      <variant>Потому что могу</variant>
+      <variant>Ну и вопросы у вас.</variant>
     </variants>
   </question>
 
   <question secundes="25">
     <text>В чем смысл жизни?</text>
     <variants>
-      <variant>mc.cos(x)</variant>
-      <variant>mcDonalds</variant>
-      <variant right="true">mc2</variant>
-      <variant>мцюх</variant>
+      <variant>В вере</variant>
+      <variant>В любви</variant>
+      <variant right="true">В жизни</variant>
+      <variant>Все тлен</variant>
     </variants>
   </question>
 
   <question secundes="25">
     <text>Сколько ног у сороконожки?</text>
     <variants>
-      <variant>mc.cos(x)</variant>
-      <variant>mcDonalds</variant>
-      <variant right="true">mc2</variant>
-      <variant>мцюх</variant>
+      <variant>Я не биолог</variant>
+      <variant>180/15+26.27</variant>
+      <variant>Все зависит от вида</variant>
+      <variant right="true">40</variant>
     </variants>
   </question>
 
   <question secundes="25">
     <text>Почему ты не работаешь? Ты - лентяй?</text>
     <variants>
-      <variant>mc.cos(x)</variant>
-      <variant>mcDonalds</variant>
-      <variant right="true">mc2</variant>
-      <variant>мцюх</variant>
+      <variant>Нет</variant>
+      <variant>Да</variant>
+      <variant right="true">Уже работаю</variant>
+      <variant>Зачем Вы интересуетесь?</variant>
     </variants>
   </question>
 </questions>
