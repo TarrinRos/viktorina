@@ -1,5 +1,5 @@
 class Question
-  attr_reader :seconds, :correct_choice_index
+  attr_reader :seconds
 
   def self.xml_parse(question)
     # Gets question text
@@ -21,19 +21,19 @@ class Question
     @seconds = seconds.to_i
 
     # Gets the array of answers choices
-    @answer_choices = answer_choices.map { |choice| choice[0] }
+    @answer_choices = answer_choices.map {|choice| choice[0]}
 
     # Gets index of correct choice from the answers choices
-    @correct_choice_index = answer_choices.index { |item| item.attributes["correct"] }
+    @correct_choice_index = answer_choices.index {|item| item.attributes["correct"]}
   end
 
   def to_s
     <<~EOM
-    У вас #{@seconds} сек на то, чтобы ответить:
-    ============================================
-    #{@text}
+      У вас #{@seconds} сек на то, чтобы ответить:
+      ============================================
+      #{@text}
 
-    #{@answer_choices.map.with_index {|choice, index| "#{index + 1}. #{choice}"}.join("\n")}
+      #{@answer_choices.map.with_index {|choice, index| "#{index + 1}. #{choice}"}.join("\n")}
     EOM
   end
 
